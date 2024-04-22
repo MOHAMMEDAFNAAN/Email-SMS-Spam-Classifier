@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Screenshots](#screenshots)
 - [Deployed Website](#deployed-website)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -15,6 +16,19 @@ The main objective behind this application is to classify SMS/Email as spam or n
 Unfortunately, this environment also provides fertile ground for spammers who exploit it to execute fraudulent activities. To combat this, our application utilizes Python, a powerful tool for building machine learning models, to help distinguish spam from legitimate messages. By automating the detection of spam, this application contributes to reducing cybercrimes and simplifying the digital lives of users.
 
 The project leverages **Naive Bayes Classifiers**, a family of algorithms based on Bayes’ Theorem, which presumes independence between predictive features. This theorem is crucial for calculating the likelihood of a message being spam based on various characteristics of the data.
+
+## Screenshots
+
+Here are some screenshots of the application:
+
+![Home Page](visuals/ss/Home.png)
+*Home Page of the Spam Classifier*
+
+![Not Spam Message](visuals/ss/NotSpam.png)
+*Displaying a not spam classification result*
+
+![Spam Message](visuals/ss/Spam.png)
+*Displaying a spam classification result*
 
 ## Deployed Website
 
