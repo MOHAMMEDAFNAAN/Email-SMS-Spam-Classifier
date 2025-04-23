@@ -9,8 +9,11 @@ from streamlit_lottie import st_lottie
 import time
 
 # Load NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
 
 # Create a PorterStemmer object
 ps = PorterStemmer()
